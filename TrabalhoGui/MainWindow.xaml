@@ -1,0 +1,58 @@
+﻿<Window x:Class="TrabalhoGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sistema de Livros" Height="600" Width="800">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Cabeçalho -->
+        <StackPanel Grid.Row="0" Margin="10">
+            <TextBlock Text="Sistema de Gerenciamento de Livros" 
+                       FontSize="20" FontWeight="Bold" Margin="0,0,0,10"/>
+            
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="RefreshButton" Content="Atualizar" 
+                        Click="RefreshButton_Click" Margin="0,0,10,0" Width="100"/>
+                <TextBlock x:Name="StatusText" Margin="20,0,0,0" 
+                           VerticalAlignment="Center" FontSize="14"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Lista de Livros -->
+        <DataGrid Grid.Row="1" Margin="10" AutoGenerateColumns="False"
+                  ItemsSource="{Binding Books}" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                <DataGridTextColumn Header="Livro" Binding="{Binding Nome_Livro}" Width="200"/>
+                <DataGridTextColumn Header="Autor" Binding="{Binding Nome_Autor}" Width="150"/>
+                <DataGridTextColumn Header="Preço" Binding="{Binding Preco, StringFormat=C}" Width="100"/>
+                <DataGridTextColumn Header="Categoria" Binding="{Binding CategoriaNome}" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Loading Panel -->
+        <Grid x:Name="LoadingPanel" Grid.Row="1" Background="#80000000" 
+              Visibility="Collapsed">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Carregando..." Foreground="White" 
+                           FontSize="16" Margin="0,0,0,10"/>
+                <ProgressBar IsIndeterminate="True" Width="200" Height="20"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Rodapé -->
+        <StatusBar Grid.Row="2">
+            <StatusBarItem>
+                <TextBlock Text="API: http://localhost:5229"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock Text="{Binding Books.Count, StringFormat=Total: {0} livros}"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

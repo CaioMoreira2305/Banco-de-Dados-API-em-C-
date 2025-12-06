@@ -1,0 +1,15 @@
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\bin\Debug\net9.0-windows\SistemaLivros.exe
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\bin\Debug\net9.0-windows\SistemaLivros.deps.json
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\bin\Debug\net9.0-windows\SistemaLivros.runtimeconfig.json
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\bin\Debug\net9.0-windows\SistemaLivros.dll
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\bin\Debug\net9.0-windows\SistemaLivros.pdb
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\obj\Debug\net9.0-windows\SistemaLivros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\obj\Debug\net9.0-windows\SistemaLivros.AssemblyInfoInputs.cache
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\obj\Debug\net9.0-windows\SistemaLivros.AssemblyInfo.cs
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\obj\Debug\net9.0-windows\SistemaLivros.csproj.CoreCompileInputs.cache
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\obj\Debug\net9.0-windows\SistemaLivros.sourcelink.json
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\obj\Debug\net9.0-windows\SistemaLivros.dll
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\obj\Debug\net9.0-windows\refint\SistemaLivros.dll
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\obj\Debug\net9.0-windows\SistemaLivros.pdb
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\obj\Debug\net9.0-windows\SistemaLivros.genruntimeconfig.cache
+C:\Users\caiom\OneDrive\Documentos\Caio\CEUB\Banco-de-Dados-API-em-C-\TrabalhoGUI\SistemaLivros\obj\Debug\net9.0-windows\ref\SistemaLivros.dll
